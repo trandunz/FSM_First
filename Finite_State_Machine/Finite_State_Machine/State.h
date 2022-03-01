@@ -1,31 +1,29 @@
 #pragma once
 #include "iState.h"
-class State :
-    public iState
+class State : public iState
 {
 public:
-    static State& GetInstance()
-    {
-        static State state;
-        return state;
-    }
 
-    void OnBegin(Agent& _agent)
+
+    void OnBegin(Agent* _agent)
     {
 
     }
-    void OnToggle(Agent& _agent)
+    void OnToggle(Agent* _agent)
+    {
+        
+    }
+    void OnFinish(Agent* _agent)
     {
 
     }
-    void OnFinish(Agent& _agent)
-    {
 
-    }
+    static iState& GetInstance();
+
 
 private:
     State();
-    State(State& const _otherState)
+    State(const State& _otherState)
     {
         GetInstance() = _otherState;
     }

@@ -1,0 +1,5 @@
+﻿  Main.cpp
+  State.cpp
+  Generating Code...
+State.obj : error LNK2019: unresolved external symbol "private: __cdecl State::State(void)" (??0State@@AEAA@XZ) referenced in function "public: static class iState & __cdecl State::GetInstance(void)" (?GetInstance@State@@SAAEAViState@@XZ)
+D:\Users\mds00002d0\Documents\GitHub\FSM_First\Finite_State_Machine\x64\Debug\Finite_State_Machine.exe : fatal error LNK1120: 1 unresolved externals

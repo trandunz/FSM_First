@@ -1,4 +1,8 @@
-#include "Helper.h"
+#include "Agent.h"
+
+int Cleanup();
+
+Agent agent;
 
 int main()
 {
