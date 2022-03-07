@@ -12,5 +12,5 @@ int main()
 
 int Cleanup()
 {
-	return NULL;
+	return 0;
 }

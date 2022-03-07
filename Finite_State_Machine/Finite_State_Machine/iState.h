@@ -1,6 +1,6 @@
 #pragma once
+
 #include "Agent.h"
-#include "Helper.h"
 
 class Agent;
 class iState
